@@ -1,0 +1,116 @@
+/*Bubble chart style code*/
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif
+    -webkit-backface-visibility: hidden;
+}
+
+#dataSource {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 12px;
+    color:grey;
+}
+
+select {
+    margin-left: 1%;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other J.XIE */ 
+.column01 {
+    flex: 65%;
+/*    padding: 5px;*/
+}
+
+.column02 {
+    flex: 35%;
+/*    padding: 5px;*/
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+svg {
+    margin:auto;
+    display:block;
+}
+
+#bubble {
+    background-color: #eee;
+    border:10px;
+    border-color: black;
+}
+
+.circle-overlay {
+    font-size: 16px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.circle-overlay__inner {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#infobox {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.hidden {
+    display: none;
+}
+
+.node-icon--faded {
+    width: 100px;
+    height: 100px;
+    x:-5%;
+    y:0.2%;
+}
+
+.legend-size circle {
+    fill: rgb(31, 119, 180);
+}
+
+/*Sunbrust style code*/
+#sunburst {
+    background-color: #eee;
+}
+
+form {
+    background-color: #eee;
+    font-size: 12px;
+}
+
+label{
+    margin-left: 450px;
+}
+
+path {
+  stroke: #fff;
+}
+
+/*radar chart style code*/
+#radar {
+    background-color: #eee;
+}
